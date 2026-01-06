@@ -41,7 +41,7 @@ jobs:
         run: flake8 .
 
       - name: Smoke test — import Flask
-        run: python -c "import flask; print('Flask', flask.__version__)"
+        run: python -c "import importlib.metadata as m; print('Flask', m.version('flask'))"
 
       - name: Run tests
         run: |
