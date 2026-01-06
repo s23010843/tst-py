@@ -25,3 +25,19 @@ python app.py
 ```
 
 That's it — the app serves a single page that says "Hello, World!".
+
+## Docker
+
+Build the image:
+
+```bash
+docker build -t tst-py .
+```
+
+Run the container (maps port 5000):
+
+```bash
+docker run -p 5000:5000 tst-py
+```
+
+Open http://localhost:5000 in your browser.

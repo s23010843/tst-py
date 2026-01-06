@@ -179,3 +179,16 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Editor directories
+.vscode/
+
+# Local environment files
+.env.local
+.env.*
+
+# macOS Finder
+.DS_Store
+
+# Node modules (if frontend added)
+node_modules/
