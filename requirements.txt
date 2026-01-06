@@ -1,2 +1,2 @@
-Flask>=2.0
-pytest>=7.0
+flet
+Flask==3.1.2
